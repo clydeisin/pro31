@@ -1,0 +1,722 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'tm-axacus-icons';
+    src: url('../font/tm-axacus-icons.eot?28619777');
+    src: url('../font/tm-axacus-icons.eot?28619777#iefix') format('embedded-opentype'), url('../font/tm-axacus-icons.woff2?28619777') format('woff2'), url('../font/tm-axacus-icons.woff?28619777') format('woff'), url('../font/tm-axacus-icons.ttf?28619777') format('truetype'), url('../font/tm-axacus-icons.svg?28619777#tm-axacus-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'tm-axacus-icons';
+    src: url('../font/tm-axacus-icons.svg?28619777#tm-axacus-icons') format('svg');
+  }
+}
+*/
+
+[class^="tm-axacus-icon-"]:before,
+[class*=" tm-axacus-icon-"]:before {
+    font-family: "tm-axacus-icons";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.tm-axacus-icon-google-drive:before {
+    content: '\e800';
+}
+
+/* '' */
+
+.tm-axacus-icon-issuu:before {
+    content: '\e801';
+}
+
+/* '' */
+
+.tm-axacus-icon-user:before {
+    content: '\e802';
+}
+
+/* '' */
+
+.tm-axacus-icon-music:before {
+    content: '\e803';
+}
+
+/* '' */
+
+.tm-axacus-icon-video:before {
+    content: '\e804';
+}
+
+/* '' */
+
+.tm-axacus-icon-quote:before {
+    content: '\e805';
+}
+
+/* '' */
+
+.tm-axacus-icon-aside:before {
+    content: '\e806';
+}
+
+/* '' */
+
+.tm-axacus-icon-rss:before {
+    content: '\e807';
+}
+
+/* '' */
+
+.tm-axacus-icon-angle-left:before {
+    content: '\e808';
+}
+
+/* '' */
+
+.tm-axacus-icon-angle-right:before {
+    content: '\e809';
+}
+
+/* '' */
+
+.tm-axacus-icon-status:before {
+    content: '\e80a';
+}
+
+/* '' */
+
+.tm-axacus-icon-dribbble:before {
+    content: '\e80b';
+}
+
+/* '' */
+
+.tm-axacus-icon-facebook:before {
+    content: '\e80c';
+}
+
+/* '' */
+
+.tm-axacus-icon-flickr:before {
+    content: '\e80d';
+}
+
+/* '' */
+
+.tm-axacus-icon-gplus:before {
+    content: '\e80e';
+}
+
+/* '' */
+
+.tm-axacus-icon-instagram:before {
+    content: '\e80f';
+}
+
+/* '' */
+
+.tm-axacus-icon-linkedin:before {
+    content: '\e810';
+}
+
+/* '' */
+
+.tm-axacus-icon-pinterest:before {
+    content: '\e811';
+}
+
+/* '' */
+
+.tm-axacus-icon-twitter:before {
+    content: '\e812';
+}
+
+/* '' */
+
+.tm-axacus-icon-vk:before {
+    content: '\e813';
+}
+
+/* '' */
+
+.tm-axacus-icon-xing:before {
+    content: '\e814';
+}
+
+/* '' */
+
+.tm-axacus-icon-yelp:before {
+    content: '\e815';
+}
+
+/* '' */
+
+.tm-axacus-icon-youtube:before {
+    content: '\e816';
+}
+
+/* '' */
+
+.tm-axacus-icon-gallery:before {
+    content: '\e817';
+}
+
+/* '' */
+
+.tm-axacus-icon-plus:before {
+    content: '\e818';
+}
+
+/* '' */
+
+.tm-axacus-icon-link:before {
+    content: '\e819';
+}
+
+/* '' */
+
+.tm-axacus-icon-tag:before {
+    content: '\e81a';
+}
+
+/* '' */
+
+.tm-axacus-icon-clock:before {
+    content: '\e81b';
+}
+
+/* '' */
+
+.tm-axacus-icon-heart:before {
+    content: '\e81c';
+}
+
+/* '' */
+
+.tm-axacus-icon-sticky:before {
+    content: '\e81d';
+}
+
+/* '' */
+
+.tm-axacus-icon-marker:before {
+    content: '\e81e';
+}
+
+/* '' */
+
+.tm-axacus-icon-comment:before {
+    content: '\e81f';
+}
+
+/* '' */
+
+.tm-axacus-icon-chat:before {
+    content: '\e820';
+}
+
+/* '' */
+
+.tm-axacus-icon-podcast:before {
+    content: '\e821';
+}
+
+/* '' */
+
+.tm-axacus-icon-houzz:before {
+    content: '\e822';
+}
+
+/* '' */
+
+.tm-axacus-icon-image:before {
+    content: '\e823';
+}
+
+/* '' */
+
+.tm-axacus-icon-cart:before {
+    content: '\e824';
+}
+
+/* '' */
+
+.tm-axacus-icon-search:before {
+    content: '\e825';
+}
+
+/* '' */
+
+.tm-axacus-icon-arrow-right:before {
+    content: '\e826';
+}
+
+/* '' */
+
+.tm-axacus-icon-pencil:before {
+    content: '\e827';
+}
+
+/* '' */
+
+.tm-axacus-icon-mobile:before {
+    content: '\e828';
+}
+
+/* '' */
+
+.tm-axacus-icon-comment-1:before {
+    content: '\e829';
+}
+
+/* '' */
+
+.tm-axacus-icon-world:before {
+    content: '\e82a';
+}
+
+/* '' */
+
+.tm-axacus-icon-location-pin:before {
+    content: '\e82b';
+}
+
+/* '' */
+
+.tm-axacus-icon-quote-left:before {
+    content: '\e82c';
+}
+
+/* '' */
+
+.tm-axacus-icon-close:before {
+    content: '\e82d';
+}
+
+/* '' */
+
+.tm-axacus-icon-comments-smiley:before {
+    content: '\e82e';
+}
+
+/* '' */
+
+.tm-axacus-icon-category:before {
+    content: '\e82f';
+}
+
+/* '' */
+
+.tm-axacus-icon-tag-1:before {
+    content: '\e830';
+}
+
+/* '' */
+
+.tm-axacus-icon-shift-right:before {
+    content: '\e831';
+}
+
+/* '' */
+
+.tm-axacus-icon-mail:before {
+    content: '\e832';
+}
+
+/* '' */
+
+.tm-axacus-icon-phone:before {
+    content: '\e833';
+}
+
+/* '' */
+
+.tm-axacus-icon-arrow-left:before {
+    content: '\e834';
+}
+
+/* '' */
+
+.tm-axacus-icon-gallery-1:before {
+    content: '\e835';
+}
+
+/* '' */
+
+.tm-axacus-icon-music-alt:before {
+    content: '\e836';
+}
+
+/* '' */
+
+.tm-axacus-icon-shopping-cart:before {
+    content: '\e837';
+}
+
+/* '' */
+
+.tm-axacus-icon-heart-empty:before {
+    content: '\e838';
+}
+
+/* '' */
+
+.tm-axacus-icon-star:before {
+    content: '\e839';
+}
+
+/* '' */
+
+.tm-axacus-icon-ok:before {
+    content: '\e83a';
+}
+
+/* '' */
+
+.tm-axacus-icon-plus-1:before {
+    content: '\e83b';
+}
+
+/* '' */
+
+.tm-axacus-icon-unlink:before {
+    content: '\e83c';
+}
+
+/* '' */
+
+.tm-axacus-icon-quote-right:before {
+    content: '\e83d';
+}
+
+/* '' */
+
+.tm-axacus-icon-home:before {
+    content: '\e83e';
+}
+
+/* '' */
+
+.tm-axacus-icon-quote-1:before {
+    content: '\e83f';
+}
+
+/* '' */
+
+.tm-axacus-icon-shuffle:before {
+    content: '\e840';
+}
+
+/* '' */
+
+.tm-axacus-icon-search-1:before {
+    content: '\e841';
+}
+
+/* '' */
+
+.tm-axacus-icon-eye:before {
+    content: '\e842';
+}
+
+/* '' */
+
+.tm-axacus-icon-basket:before {
+    content: '\e843';
+}
+
+/* '' */
+
+.tm-axacus-icon-paper-plane:before {
+    content: '\e844';
+}
+
+/* '' */
+
+.tm-axacus-icon-arrow-circle-down:before {
+    content: '\e845';
+}
+
+/* '' */
+
+.tm-axacus-icon-minus:before {
+    content: '\e846';
+}
+
+/* '' */
+
+.tm-axacus-icon-minus-1:before {
+    content: '\e847';
+}
+
+/* '' */
+
+.tm-axacus-icon-left-open-big:before {
+    content: '\e848';
+}
+
+/* '' */
+
+.tm-axacus-icon-right-open-big:before {
+    content: '\e849';
+}
+
+/* '' */
+
+.tm-axacus-icon-location:before {
+    content: '\e84a';
+}
+
+/* '' */
+
+.tm-axacus-icon-comment-3:before {
+    content: '\e84b';
+}
+
+/* '' */
+
+.tm-axacus-icon-user-1:before {
+    content: '\e84c';
+}
+
+/* '' */
+
+.tm-axacus-icon-star-1:before {
+    content: '\e84d';
+}
+
+/* '' */
+
+.tm-axacus-icon-star-empty-1:before {
+    content: '\e84e';
+}
+
+/* '' */
+
+.tm-axacus-icon-folder:before {
+    content: '\e84f';
+}
+
+/* '' */
+
+.tm-axacus-icon-left-fat:before {
+    content: '\e850';
+}
+
+/* '' */
+
+.tm-axacus-icon-right-fat:before {
+    content: '\e851';
+}
+
+/* '' */
+
+.tm-axacus-icon-plus-2:before {
+    content: '\e852';
+}
+
+/* '' */
+
+.tm-axacus-icon-plus-3:before {
+    content: '\e853';
+}
+
+/* '' */
+
+.tm-axacus-icon-left-bold:before {
+    content: '\e854';
+}
+
+/* '' */
+
+.tm-axacus-icon-right-bold:before {
+    content: '\e855';
+}
+
+/* '' */
+
+.tm-axacus-icon-shuffle-1:before {
+    content: '\e856';
+}
+
+/* '' */
+
+.tm-axacus-icon-basket-1:before {
+    content: '\e857';
+}
+
+/* '' */
+
+.tm-axacus-icon-search-outline:before {
+    content: '\e858';
+}
+
+/* '' */
+
+.tm-axacus-icon-search-2:before {
+    content: '\e859';
+}
+
+/* '' */
+
+.tm-axacus-icon-mobile-1:before {
+    content: '\e85a';
+}
+
+/* '' */
+
+.tm-axacus-icon-shop:before {
+    content: '\e85b';
+}
+
+/* '' */
+
+.tm-axacus-icon-mail-1:before {
+    content: '\e85c';
+}
+
+/* '' */
+
+.tm-axacus-icon-globe:before {
+    content: '\e85d';
+}
+
+/* '' */
+
+.tm-axacus-icon-location-1:before {
+    content: '\e85e';
+}
+
+/* '' */
+
+.tm-axacus-icon-comment-2:before {
+    content: '\e85f';
+}
+
+/* '' */
+
+.tm-axacus-icon-quote-left-1:before {
+    content: '\e860';
+}
+
+/* '' */
+
+.tm-axacus-icon-ok-circled2:before {
+    content: '\e861';
+}
+
+/* '' */
+
+.tm-axacus-icon-share-1:before {
+    content: '\e862';
+}
+
+/* '' */
+
+.tm-axacus-icon-angle-double-left:before {
+    content: '\f100';
+}
+
+/* '' */
+
+.tm-axacus-icon-angle-double-right:before {
+    content: '\f101';
+}
+
+/* '' */
+
+.tm-axacus-icon-angle-up:before {
+    content: '\f106';
+}
+
+/* '' */
+
+.tm-axacus-icon-angle-down:before {
+    content: '\f107';
+}
+
+/* '' */
+
+.tm-axacus-icon-quote-right-1:before {
+    content: '\f10e';
+}
+
+/* '' */
+
+.tm-axacus-icon-tumblr:before {
+    content: '\f173';
+}
+
+/* '' */
+
+.tm-axacus-icon-stumbleupon:before {
+    content: '\f1a4';
+}
+
+/* '' */
+
+.tm-axacus-icon-digg:before {
+    content: '\f1a6';
+}
+
+/* '' */
+
+.tm-axacus-icon-share:before {
+    content: '\f1e0';
+}
+
+/* '' */
+
+.tm-axacus-icon-whatsapp:before {
+    content: '\f232';
+}
+
+/* '' */
+
+.tm-axacus-icon-reddit:before {
+    content: '\f281';
+}
+
+/* '' */
+
+.tm-axacus-icon-shopping-basket:before {
+    content: '\f291';
+}
+
+/* '' */
+
+.tm-axacus-icon-vimeo:before {
+    content: '󨇎';
+}
+
+/* '\e81ce' */
